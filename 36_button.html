@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 500px;
+            width: 500px;
+            margin: auto;
+            margin-top: 80px;
+            border: 5px solid rgb(245, 245, 245);
+            position: relative;
+        }
+        .box{
+            width: 100%;
+            
+            font-size: 30px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            left: 0%;
+            bottom: -40px;
+            opacity: 0;
+
+        }
+        .main:hover .box{
+            opacity: 1;
+            transition: 1s;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="img.jpeg" alt="" height="100%" width="100%">
+        <input type="button" name="" id="" value="Add To card" class="box">
+    </div>
+</body>
+</html>
